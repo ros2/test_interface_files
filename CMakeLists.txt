@@ -32,17 +32,19 @@ set(action_files
   "action/Fibonacci.action"
 )
 
+set(interface_install_dir "share/${PROJECT_NAME}")
+
 install(
   FILES ${msg_files}
-  DESTINATION share/${PROJECT_NAME}/msg
+  DESTINATION ${interface_install_dir}/msg
 )
 install(
   FILES ${srv_files}
-  DESTINATION share/${PROJECT_NAME}/srv
+  DESTINATION ${interface_install_dir}/srv
 )
 install(
   FILES ${action_files}
-  DESTINATION share/${PROJECT_NAME}/action
+  DESTINATION ${interface_install_dir}/action
 )
 
 ament_package(
