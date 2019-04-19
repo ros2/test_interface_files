@@ -1,1 +1,1 @@
-StaticArrayPrimitives[4] static_array_primitive_values
+ArrayPrimitives[4] array_primitives_values

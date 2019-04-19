@@ -1,1 +1,1 @@
-BoundedArrayPrimitives[<=3] bounded_array_primitive_values
+BoundedSequencePrimitives[<=3] bounded_sequence_primitives_values
