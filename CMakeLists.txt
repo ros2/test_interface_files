@@ -5,19 +5,19 @@ project(test_interface_files NONE)
 find_package(ament_cmake_core REQUIRED)
 
 set(msg_files
-  "msg/BoundedArrayPrimitivesNested.msg"
-  "msg/BoundedArrayNested.msg"
-  "msg/BoundedArrayPrimitives.msg"
-  "msg/DynamicArrayNested.msg"
-  "msg/DynamicArrayPrimitives.msg"
-  "msg/DynamicArrayPrimitivesNested.msg"
-  "msg/DynamicArrayStaticArrayPrimitivesNested.msg"
+  "msg/ArrayNested.msg"
+  "msg/ArrayPrimitives.msg"
+  "msg/ArrayPrimitivesNested.msg"
+  "msg/BoundedSequencePrimitivesNested.msg"
+  "msg/BoundedSequenceNested.msg"
+  "msg/BoundedSequencePrimitives.msg"
   "msg/Empty.msg"
   "msg/Nested.msg"
   "msg/Primitives.msg"
-  "msg/StaticArrayNested.msg"
-  "msg/StaticArrayPrimitives.msg"
-  "msg/StaticArrayPrimitivesNested.msg"
+  "msg/UnboundedSequenceNested.msg"
+  "msg/UnboundedSequencePrimitives.msg"
+  "msg/UnboundedSequencePrimitivesNested.msg"
+  "msg/UnboundedSequenceArrayPrimitivesNested.msg"
 )
 
 set(srv_files
