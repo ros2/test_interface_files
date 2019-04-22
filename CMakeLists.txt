@@ -21,6 +21,7 @@ set(msg_files
   "msg/UnboundedSequencePrimitives.msg"
   "msg/UnboundedSequencePrimitivesNested.msg"
   "msg/UnboundedSequenceArrayPrimitivesNested.msg"
+  "msg/Various.msg"
 )
 
 set(srv_files
