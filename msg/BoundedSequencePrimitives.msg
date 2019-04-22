@@ -12,4 +12,3 @@ uint32[<=3] uint32_values
 int64[<=3] int64_values
 uint64[<=3] uint64_values
 string[<=3] string_values
-int32 check

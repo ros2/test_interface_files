@@ -12,4 +12,3 @@ uint32[] uint32_values
 int64[] int64_values
 uint64[] uint64_values
 string[] string_values
-int32 check
