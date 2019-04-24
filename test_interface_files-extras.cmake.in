@@ -15,17 +15,17 @@
 # generated from test_interface_files/test_interface_files-extras.cmake.in
 
 set(@PROJECT_NAME@_MSG_FILES "")
-foreach(msg "@msg_files@")
+foreach(msg @msg_files@)
   list(APPEND @PROJECT_NAME@_MSG_FILES
     "@CMAKE_INSTALL_PREFIX@/@interface_install_dir@:${msg}")
 endforeach()
 set(@PROJECT_NAME@_SRV_FILES "")
-foreach(srv "@srv_files@")
+foreach(srv @srv_files@)
   list(APPEND @PROJECT_NAME@_SRV_FILES
     "@CMAKE_INSTALL_PREFIX@/@interface_install_dir@:${srv}")
 endforeach()
 set(@PROJECT_NAME@_ACTION_FILES "")
-foreach(action "@action_files@")
+foreach(action @action_files@)
   list(APPEND @PROJECT_NAME@_ACTION_FILES
     "@CMAKE_INSTALL_PREFIX@/@interface_install_dir@:${action}")
 endforeach()
