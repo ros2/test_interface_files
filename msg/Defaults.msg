@@ -11,4 +11,3 @@ int32 int32_value -30000
 uint32 uint32_value 60000
 int64 int64_value -40000000
 uint64 uint64_value 50000000
-string string_value "bar"

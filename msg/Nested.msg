@@ -1,1 +1,1 @@
-Primitives primitives_values
+BasicTypes basic_types_value
