@@ -15,6 +15,7 @@ set(msg_files
   "msg/Nested.msg"
   "msg/Strings.msg"
   "msg/UnboundedSequences.msg"
+  "msg/WStrings.msg"
 )
 
 set(srv_files
