@@ -29,3 +29,8 @@ foreach(action @action_files@)
   list(APPEND @PROJECT_NAME@_ACTION_FILES
     "@CMAKE_INSTALL_PREFIX@/@interface_install_dir@:${action}")
 endforeach()
+set(@PROJECT_NAME@_IDL_FILES "")
+foreach(idl @idl_files@)
+  list(APPEND @PROJECT_NAME@_IDL_FILES
+    "@CMAKE_INSTALL_PREFIX@/@interface_install_dir@:${idl}")
+endforeach()
