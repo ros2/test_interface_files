@@ -27,6 +27,10 @@ set(action_files
   "action/Fibonacci.action"
 )
 
+set(idl_files
+  # "idl/IdlOnlyTypes.idl"
+)
+
 set(interface_install_dir "share/${PROJECT_NAME}")
 
 install(
@@ -40,6 +44,10 @@ install(
 install(
   FILES ${action_files}
   DESTINATION ${interface_install_dir}/action
+)
+install(
+  FILES ${idl_files}
+  DESTINATION ${interface_install_dir}/idl
 )
 
 ament_package(
