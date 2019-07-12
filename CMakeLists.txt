@@ -19,8 +19,9 @@ set(msg_files
 )
 
 set(srv_files
-  "srv/Empty.srv"
+  "srv/Arrays.srv"
   "srv/BasicTypes.srv"
+  "srv/Empty.srv"
 )
 
 set(action_files
