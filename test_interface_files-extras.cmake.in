@@ -14,23 +14,26 @@
 
 # generated from test_interface_files/test_interface_files-extras.cmake.in
 
+set(@PROJECT_NAME@_INTERFACE_FILES_BASEPATH "${@PROJECT_NAME@_DIR}")
+get_filename_component(@PROJECT_NAME@_INTERFACE_FILES_BASEPATH "${@PROJECT_NAME@_INTERFACE_FILES_BASEPATH}" DIRECTORY)
+
 set(@PROJECT_NAME@_MSG_FILES "")
 foreach(msg @msg_files@)
   list(APPEND @PROJECT_NAME@_MSG_FILES
-    "@CMAKE_INSTALL_PREFIX@/@interface_install_dir@:${msg}")
+    "${@PROJECT_NAME@_INTERFACE_FILES_BASEPATH}:${msg}")
 endforeach()
 set(@PROJECT_NAME@_SRV_FILES "")
 foreach(srv @srv_files@)
   list(APPEND @PROJECT_NAME@_SRV_FILES
-    "@CMAKE_INSTALL_PREFIX@/@interface_install_dir@:${srv}")
+    "${@PROJECT_NAME@_INTERFACE_FILES_BASEPATH}:${srv}")
 endforeach()
 set(@PROJECT_NAME@_ACTION_FILES "")
 foreach(action @action_files@)
   list(APPEND @PROJECT_NAME@_ACTION_FILES
-    "@CMAKE_INSTALL_PREFIX@/@interface_install_dir@:${action}")
+    "${@PROJECT_NAME@_INTERFACE_FILES_BASEPATH}:${action}")
 endforeach()
 set(@PROJECT_NAME@_IDL_FILES "")
 foreach(idl @idl_files@)
   list(APPEND @PROJECT_NAME@_IDL_FILES
-    "@CMAKE_INSTALL_PREFIX@/@interface_install_dir@:${idl}")
+    "${@PROJECT_NAME@_INTERFACE_FILES_BASEPATH}:${idl}")
 endforeach()
