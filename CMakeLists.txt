@@ -12,6 +12,7 @@ set(msg_files
   "msg/Defaults.msg"
   "msg/Empty.msg"
   "msg/MultiNested.msg"
+  "msg/MyMessage.idl"
   "msg/Nested.msg"
   "msg/Strings.msg"
   "msg/UnboundedSequences.msg"
@@ -22,14 +23,16 @@ set(srv_files
   "srv/Arrays.srv"
   "srv/BasicTypes.srv"
   "srv/Empty.srv"
+  "srv/MyService.idl"
 )
 
 set(action_files
   "action/Fibonacci.action"
+  "action/MyAction.idl"
 )
 
 set(idl_files
-  # "idl/IdlOnlyTypes.idl"
+  "idl/IdlOnlyTypes.idl"
 )
 
 set(interface_install_dir "share/${PROJECT_NAME}")
