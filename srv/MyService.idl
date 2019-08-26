@@ -1,4 +1,4 @@
-module rosidl_parser {
+module test_msgs {
   module srv {
     module MyService_Request_Constants {
       const short SHORT_CONSTANT = -23;
