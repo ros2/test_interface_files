@@ -2,6 +2,14 @@
 Changelog for package test_interface_files
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.8.0 (2019-09-24)
+------------------
+* remove absolute paths from installed CMake code (`#9 <https://github.com/ros2/test_interface_files/issues/9>`_)
+* add wstring default values with non-ASCII characters (`#8 <https://github.com/ros2/test_interface_files/issues/8>`_)
+* Add Arrays.srv (`#7 <https://github.com/ros2/test_interface_files/issues/7>`_)
+* add IdlOnlyTypes - even though they are commented out atm (`#6 <https://github.com/ros2/test_interface_files/issues/6>`_)
+* Contributors: Dirk Thomas, Jacob Perron
+
 0.7.0 (2019-05-08)
 ------------------
 * add WStrings message (`#4 <https://github.com/ros2/test_interface_files/issues/4>`_)
