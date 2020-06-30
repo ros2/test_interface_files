@@ -13,6 +13,9 @@ set(msg_files
   "msg/Empty.msg"
   "msg/MultiNested.msg"
   "msg/Nested.msg"
+  "msg/ShortVaried.msg"
+  "msg/ShortVariedMultiNested.msg"
+  "msg/ShortVariedNested.msg"
   "msg/Strings.msg"
   "msg/UnboundedSequences.msg"
   "msg/WStrings.msg"
@@ -22,10 +25,12 @@ set(srv_files
   "srv/Arrays.srv"
   "srv/BasicTypes.srv"
   "srv/Empty.srv"
+  "srv/ShortVariedMultiNested.srv"
 )
 
 set(action_files
   "action/Fibonacci.action"
+  "action/ShortVariedMultiNested.action"
 )
 
 set(idl_files

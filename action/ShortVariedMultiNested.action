@@ -1,0 +1,8 @@
+# Request
+ShortVariedMultiNested short_varied_multi_nested
+---
+# Feedback
+bool bool_value
+---
+# Response
+bool[3] bool_values
