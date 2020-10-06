@@ -8,7 +8,7 @@
   <license>Apache License 2.0</license>
 
   <author email="dthomas@openrobotics.org">Dirk Thomas</author>
-  <author email="karsten@osrfoundation.org">Karsten Knese</author>
+  <author email="karsten@openrobotics.org">Karsten Knese</author>
 
   <buildtool_depend>ament_cmake_core</buildtool_depend>
 
