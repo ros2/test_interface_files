@@ -1,4 +1,4 @@
-# Bounded sequences of different types
+# Bounded sequences of different POD types
 bool[<=3] bool_values
 byte[<=3] byte_values
 char[<=3] char_values
