@@ -7,8 +7,8 @@ find_package(ament_cmake_core REQUIRED)
 set(msg_files
   "msg/Arrays.msg"
   "msg/BasicTypes.msg"
+  "msg/BoundedPlainSequences.msg"
   "msg/BoundedSequences.msg"
-  "msg/BoundedSequencesNoStrings.msg"
   "msg/Constants.msg"
   "msg/Defaults.msg"
   "msg/Empty.msg"
