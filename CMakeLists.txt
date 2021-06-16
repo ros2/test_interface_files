@@ -16,7 +16,6 @@ set(msg_files
   "msg/Nested.msg"
   "msg/Strings.msg"
   "msg/UnboundedSequences.msg"
-  "msg/UnboundedSequencesNoStrings.msg"
   "msg/WStrings.msg"
 )
 
