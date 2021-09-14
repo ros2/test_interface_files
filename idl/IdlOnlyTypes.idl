@@ -1,5 +1,5 @@
 module test_msgs {
-  module idl {
+  module msg {
     struct IdlOnlyTypes {
       wchar wchar_value;
       long double long_double_value;

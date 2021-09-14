@@ -30,7 +30,8 @@ set(action_files
 )
 
 set(idl_files
-  # "idl/IdlOnlyTypes.idl"
+  "idl/IdlOnlyTypes.idl"
+  "idl/FixedSequence.idl"
 )
 
 set(interface_install_dir "share/${PROJECT_NAME}")
