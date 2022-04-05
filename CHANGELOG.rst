@@ -2,8 +2,8 @@
 Changelog for package test_interface_files
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.9.1 (2022-04-05)
+------------------
 * Revert "Update package.xml (`#18 <https://github.com/ros2/test_interface_files/issues/18>`_)" (`#19 <https://github.com/ros2/test_interface_files/issues/19>`_)
 * Update package.xml (`#18 <https://github.com/ros2/test_interface_files/issues/18>`_)
 * Update maintainers to Audrow Nash (`#17 <https://github.com/ros2/test_interface_files/issues/17>`_)
