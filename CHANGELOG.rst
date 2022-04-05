@@ -2,6 +2,13 @@
 Changelog for package test_interface_files
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Revert "Update package.xml (`#18 <https://github.com/ros2/test_interface_files/issues/18>`_)" (`#19 <https://github.com/ros2/test_interface_files/issues/19>`_)
+* Update package.xml (`#18 <https://github.com/ros2/test_interface_files/issues/18>`_)
+* Update maintainers to Audrow Nash (`#17 <https://github.com/ros2/test_interface_files/issues/17>`_)
+* Contributors: Audrow Nash, Chris Lalancette, Nikolai Morin
+
 0.9.0 (2021-08-06)
 ------------------
 * Added BoundedPlainSequences messages (`#14 <https://github.com/ros2/test_interface_files/issues/14>`_)
