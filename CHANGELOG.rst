@@ -2,6 +2,9 @@
 Changelog for package test_interface_files
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.10.0 (2022-05-04)
+-------------------
+
 0.9.1 (2022-04-05)
 ------------------
 * Revert "Update package.xml (`#18 <https://github.com/ros2/test_interface_files/issues/18>`_)" (`#19 <https://github.com/ros2/test_interface_files/issues/19>`_)
