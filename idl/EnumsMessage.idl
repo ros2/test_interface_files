@@ -1,0 +1,25 @@
+module test_msgs {
+  module idl {
+    typedef SomeEnum SomeEnum__3[3];
+
+    module EnumsMessage_Enums {
+      enum SomeEnum {
+        ENUMERATOR1,
+        ENUMERATOR2
+      };
+    };
+
+    struct EnumsMessage {
+      SomeEnum enum_value;
+
+      @default (value="ENUMERATOR2")
+      SomeEnum enum_default_value;
+
+      SomeEnum__3 static_array_values;
+
+      sequence<SomeEnum, 3> bounded_array_values;
+
+      sequence<SomeEnum> dynamic_array_values;
+    };
+  };
+};

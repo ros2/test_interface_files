@@ -30,6 +30,7 @@ set(action_files
 )
 
 set(idl_files
+  "idl/EnumsMessage.idl"
   # "idl/IdlOnlyTypes.idl"
 )
 
