@@ -2,6 +2,11 @@
 Changelog for package test_interface_files
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* [rolling] Update maintainers - 2022-11-07 (`#21 <https://github.com/ros2/test_interface_files/issues/21>`_)
+* Contributors: Audrow Nash
+
 0.10.1 (2022-09-13)
 -------------------
 * Mirror rolling to master
