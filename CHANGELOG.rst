@@ -2,6 +2,9 @@
 Changelog for package test_interface_files
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.11.0 (2023-04-28)
+-------------------
+
 0.10.2 (2023-02-13)
 -------------------
 * [rolling] Update maintainers - 2022-11-07 (`#21 <https://github.com/ros2/test_interface_files/issues/21>`_)
