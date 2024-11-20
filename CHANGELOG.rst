@@ -2,8 +2,8 @@
 Changelog for package test_interface_files
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.13.0 (2024-11-20)
+-------------------
 * Drop long double from the IDL. (`#22 <https://github.com/ros2/test_interface_files/issues/22>`_)
 * Contributors: Chris Lalancette
 
