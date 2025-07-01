@@ -2,6 +2,11 @@
 Changelog for package test_interface_files
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Update CMakeLists.txt (`#26 <https://github.com/ros2/test_interface_files/issues/26>`_)
+* Contributors: mosfet80
+
 0.14.0 (2025-04-24)
 -------------------
 * Remove CODEOWNERS and mirror-rolling-to-master workflow. (`#23 <https://github.com/ros2/test_interface_files/issues/23>`_)
