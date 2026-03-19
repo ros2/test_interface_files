@@ -11,6 +11,7 @@ set(msg_files
   "msg/BoundedSequences.msg"
   "msg/Constants.msg"
   "msg/Defaults.msg"
+  "msg/Deprecated.msg"
   "msg/Empty.msg"
   "msg/MultiNested.msg"
   "msg/Nested.msg"
