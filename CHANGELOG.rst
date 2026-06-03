@@ -2,8 +2,8 @@
 Changelog for package test_interface_files
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.11.1 (2026-06-03)
+-------------------
 * Remove CODEOWNERS and mirror-rolling-to-master workflow. (`#23 <https://github.com/ros2/test_interface_files/issues/23>`_) (`#24 <https://github.com/ros2/test_interface_files/issues/24>`_)
   They are both out of date, and both no longer serving their
   intended purpose.
