@@ -2,6 +2,15 @@
 Changelog for package test_interface_files
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Remove CODEOWNERS and mirror-rolling-to-master workflow. (`#23 <https://github.com/ros2/test_interface_files/issues/23>`_) (`#24 <https://github.com/ros2/test_interface_files/issues/24>`_)
+  They are both out of date, and both no longer serving their
+  intended purpose.
+  (cherry picked from commit 25d4b699e4bcd28ab4d900dd73540ea341b8c508)
+  Co-authored-by: Chris Lalancette <clalancette@gmail.com>
+* Contributors: mergify[bot]
+
 0.11.0 (2023-04-28)
 -------------------
 
