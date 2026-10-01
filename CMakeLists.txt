@@ -9,6 +9,7 @@ set(msg_files
   "msg/BasicTypes.msg"
   "msg/BoundedPlainSequences.msg"
   "msg/BoundedSequences.msg"
+  "msg/ConstantDefaults.msg"
   "msg/Constants.msg"
   "msg/Defaults.msg"
   "msg/Empty.msg"
