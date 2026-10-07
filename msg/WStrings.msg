@@ -8,3 +8,4 @@ wstring wstring_value_default3 "ハローワールド"
 wstring[3] array_of_wstrings
 wstring[<=3] bounded_sequence_of_wstrings
 wstring[] unbounded_sequence_of_wstrings
+wstring[] unbounded_sequence_of_wstrings_with_default ["Hellö wörld!"]
